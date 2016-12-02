@@ -1,0 +1,23 @@
+Directory Usage
+/    root of the virtual directory, where normally, no fi les are placed
+/bin     binary directory, where many GNU user-level utilities are stored
+/boot     boot directory, where boot fi les are stored
+/dev    device directory, where Linux creates device nodes
+/etc    system confi guration fi les directory
+/home    home directory, where Linux creates user directories
+/lib    library directory, where system and application library fi les are stored
+/media     media directory, a common place for mount points used for removable media
+/mnt    mount directory, another common place for mount points used for
+removable media
+/opt    optional directory, often used to store third-party software packages
+and data fi les
+/proc     process directory, where current hardware and process information is stored
+/root     root home directory
+/sbin    system binary directory, where many GNU admin-level utilities are stored
+/run     run directory, where runtime data is held during system operation
+/srv     service directory, where local services store their fi les
+/sys     system directory, where system hardware information fi les are stored
+/tmp     temporary directory, where temporary work fi les can be created and destroyed
+/usr     user binary directory, where the bulk of GNU user-level utilities and data fi les are
+stored
+/var     variable directory, for fi les that change frequently, such as log fi les
