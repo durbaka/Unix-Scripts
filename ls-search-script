@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# using regular expression for search
+
+echo "ls -l scr?pt1"
+ls -l scr?pt1
+
+echo "ls -l scri*"
+ls -l scri*
