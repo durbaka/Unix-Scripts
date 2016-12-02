@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#to save contents of a particular directory in a file
+
+ls -F -R > contents.txt
+echo "contents copied!"
