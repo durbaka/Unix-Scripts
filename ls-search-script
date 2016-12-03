@@ -7,3 +7,10 @@ ls -l scr?pt1
 
 echo "ls -l scri*"
 ls -l scri*
+
+ls -l my_s*t
+
+ls -l my_scr[ai]pt
+
+ls -l f[a-i]ll
+
