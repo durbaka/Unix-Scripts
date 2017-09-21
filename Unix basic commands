@@ -1,0 +1,61 @@
+Cursor Movement: 
+
+h = left, j = down, k = up, l = right (the arrow keys often have the same effect) 
+0 = move to front of line 
+$ = move to end of line 
+w = move forward one word 
+b = move backward one word 
+e = move forward to end of word 
+^F = move forward a screenfull 
+^B = move backward a screenfull 
+^D = move forward half a screenfull 
+^U = move backward half a screenfull 
+G = move to end of file 
+#G = move to line numbered #. (Ex: Use 0G to move to top of file.) 
+
+Searching: 
+
+n = repeat last search 
+N = reverse direction of last search 
+/pat = move cursor to next occurrance of pattern pat (forward search) 
+?pat = move cursor to previous occurrance of pattern pat (backward search) 
+
+Inserting: 
+
+i = insert before (new text will appear before current cursor position) -- leaves you in insert mode 
+a = append (new text appears after current cursor position) -- leaves you in insert mode 
+o = open a new line below the current line 
+O = open a new line above the current line 
+rx = replace character under cursor with character x 
+cwnewESC = change current word to new 
+
+Deleting: 
+
+^H = erase last character (usually same as backspace) 
+dSPACE = delete the character beneath the cursor (SPACE == space bar) 
+dw = delete rest of current word 
+d$ = delete from cursor through end of current line 
+dd = delete current line 
+#dd = delete # lines (Ex: 3dd deletes the current line and the two following lines.) 
+
+Saving & Loading: 
+
+:w = write the file to the current file name (see also ^G, below) 
+:wq = write the file to the current file name and exit vi when done 
+ZZ = same as :wq 
+:q = just quit vi. Will not work if any changes have been made 
+:q! = quit vi, discarding all changes. Use with caution! 
+:w name = save contents to a file named name. 
+:r name = bring in the text stored in file name; insert it at this position. 
+
+Misc: 
+
+u = undo last change 
+. = repeat last change 
+\ = "escapes" a control character (Ex: in insert mode, to insert a ^H into your file, 
+type: \^H Also, ^V has a similar effect.) 
+^L = reprint screen (useful if it gets messed up with too many control characters) 
+^G = show the name of the current file and the # of the current line 
+% = find matching ( or ) or { or } 
+#yy = 'yank' # lines, starting with the current line (like 'copy' in Windows) 
+p = 'put' those lines just yanked after the current line (like 'paste' in Windows)
